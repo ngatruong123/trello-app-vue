@@ -1,0 +1,11 @@
+@import "@/_setting.scss";
+
+$board-bg-color: #0079bf;
+$appbar-bg-color: #0067a3;
+
+.trello-app {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 40px 50px 1fr;
+    background-color: $board-bg-color;
+}
